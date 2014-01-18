@@ -1,3 +1,5 @@
+$:.push File.expand_path("../lib", __FILE__)
+
 Gem::Specification.new do |s|
   s.name        = 'melted-ruby'
   s.version     = '0.0.0'
@@ -7,7 +9,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Rens Verschuren"]
   s.email       = 'rensverschuren@gmail.com'
   s.files       = ["lib/melted-ruby.rb"]
-  s.homepage    =
-    'http://rubygems.org/gems/hola'
-  s.license       = 'MIT'
+  s.homepage    = 'http://rubygems.org/gems/hola'
+  s.license     = 'MIT'
 end
